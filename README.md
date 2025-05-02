@@ -1,1 +1,11 @@
-# python10
+#operation
+print("union")
+a={1,2,3}
+b={3,4,5}
+print(a.union(b))
+print("intersection")
+print(a.intersection(b))
+print("difference")
+print(a.difference(b))
+print("symmetricdifference")
+print(a.symmetric_difference(b))
